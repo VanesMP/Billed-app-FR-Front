@@ -11,6 +11,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 const months_short = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 
+
 // PROTOTYPES
 Date.prototype.getWeekNumber = function() {
     var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
